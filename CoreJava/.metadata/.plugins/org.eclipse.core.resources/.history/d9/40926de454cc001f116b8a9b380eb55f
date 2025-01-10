@@ -1,0 +1,15 @@
+package com.in.tech.classandobject;
+
+public class ClassObject {
+	
+	 int i = 50 ; 
+	 
+	 public static void main(String[] args) {
+		
+		 
+		 ClassObject obj = new ClassObject() ; 
+		 
+		 System.out.println(obj.i);
+	}
+
+}

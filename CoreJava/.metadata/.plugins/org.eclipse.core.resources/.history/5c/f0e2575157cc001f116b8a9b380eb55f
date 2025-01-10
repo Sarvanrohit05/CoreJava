@@ -1,0 +1,16 @@
+package com.in.tech.classandobject;
+
+public class ClassObject /* class */{
+	
+	
+	int i = 50 ; 
+	 
+	 public static void main(String[] args) {
+		
+		 
+		 ClassObject obj = new ClassObject() ; //object
+		 
+		 System.out.println(obj.i);
+	}
+
+}

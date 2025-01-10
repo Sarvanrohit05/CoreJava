@@ -1,0 +1,12 @@
+package com.in.tech.Method;
+
+public class StatementTest {
+	
+	
+	 public static void main(String[] args) {
+		    StatementMethod test = new StatementMethod() ; 
+		    
+		    test.age(1996);
+	}
+
+}

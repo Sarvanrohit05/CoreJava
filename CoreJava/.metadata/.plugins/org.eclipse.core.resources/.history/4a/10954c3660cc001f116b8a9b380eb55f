@@ -1,0 +1,11 @@
+package com.in.tech.Methos;
+
+public class SimpleMethods {
+	
+	
+	  void mymethod() {
+		  
+		  System.out.println("method will be exectued");
+	  }
+
+}

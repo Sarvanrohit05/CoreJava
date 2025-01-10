@@ -1,0 +1,12 @@
+package com.in.tech.Method;
+
+public class ReturnValueMethod {
+	
+	
+	
+	 public static int  returnmethod (int x , String name ) {
+		return x + 10 ;
+		
+	 }
+
+}

@@ -1,0 +1,32 @@
+package com.in.rohit.Arrays;
+
+import java.util.Scanner;
+
+public class DynamicArrays {
+    public static void main(String[] args) {
+        int size, i;
+
+        Scanner sc = new Scanner(System.in);
+
+        // Ask for the size of the array
+        System.out.println("Enter the size of the array: ");
+        size = sc.nextInt();
+
+        // Create an array of the specified size
+        int[] a = new int[size];
+
+        // Input elements into the array
+        System.out.println("Enter " + size + " elements:");
+        for (i = 0; i < size; i++) {
+            a[i] = sc.nextInt();
+        }
+
+        // Print the elements of the array
+        System.out.println("Elements of the array are:");
+        for (i = 0; i < size; i++) {
+            System.out.println(a[i]);
+        }
+
+        sc.close(); // Close the scanner to avoid resource leaks
+    }
+}
